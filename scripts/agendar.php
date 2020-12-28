@@ -2,7 +2,7 @@
 include_once('conexao.php');
 date_default_timezone_set('America/Sao_Paulo');
 
-var_dump($_POST);
+//var_dump($_POST);
 
 $data= date('d/m/Y', strtotime($_POST['data_reserva']));
 $hora_fim = date('H:i', strtotime('+60 minute', strtotime($_POST['hora_reserva'])));
@@ -33,7 +33,7 @@ switch ($data) {
                   
                   else{ echo "<h4>Horario disponivel </h4><br>";  
                   
-                    echo "<h4>data da  reserva: ".$_POST['data_resrva']. "</h4><br>"; 
+                    echo "<h4>data da  reserva: ".$_POST['data_reserva']. "</h4><br>"; 
                     echo "<h4>Ja existe uma reserva para  este cpf! </h4><br>"; 
                     echo "<h4>Ja existe uma reserva para  este cpf! </h4><br>"; 
                   
