@@ -151,7 +151,9 @@
 <div class="container">
   <h2>DITECH RESERVAS</h2>
   <div id="modal"></div>
-
+ <br>
+  <h2>usuario: root@gmail.com</h2><br>
+  <h2>senha: 1234 </h2>
   <form action="scripts/logar.php" method="post">
   <div class="form-group" id="frmLogin" >
     <label for="exampleInputEmail1">Email address</label>
